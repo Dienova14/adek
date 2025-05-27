@@ -1,9 +1,76 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #e6f0fa;
     color: #333;
   }
+
+/* Section HERO dengan background image */
+.hero {
+  background-image: url('background.png'); /* Ganti sesuai file gambarmu */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Header di pojok kanan atas */
+.header {
+  font-size: 22px;
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+
+/* Konten di tengah layar */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.title-porto {
+  font-size: 9rem;
+  margin: 0;
+}
+
+.dot-title {
+  color: #ff5c5c;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.dot {
+  color: white;
+}
+
+.year {
+  opacity: 1;
+}
+
+/* Footer di bawah */
+.footer {
+  font-size: 19px;
+  text-align: left;
+  font-weight: bold;
+}
   
   .container {
     padding: 40px;
