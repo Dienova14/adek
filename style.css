@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e6f0fa;
+    color: #333;
+  }
+  
+  .container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .title {
+    text-align: right;
+    color: #0162af;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .icon {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff5e78;
+    color: white;
+    font-weight: bold;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 18px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .card h3 {
+    color: #0162af;
+    margin-top: 40px;
+    font-size: 1.3em;
+    text-align: center;
+    height: 60px !important;
+  }
+  
+  .card p {
+    font-size: 0.95em;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  /* Card 8 styles */
+  .tools-card {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .tools-section {
+    border: 2px solid #b43a8e;
+    border-radius: 20px;
+    padding: 10px 15px;
+  }
+  
+  .tools-section h4 {
+    background-color: white;
+    color: #333;
+    font-size: 0.95em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    border: 2px solid #b43a8e;
+    border-radius: 10px;
+    padding: 2px 10px;
+    display: inline-block;
+  }
+  
+  .tools-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .tools-row img {
+    height: 32px;
+    object-fit: contain;
+  }  
